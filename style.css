@@ -13,7 +13,7 @@ img.socialicon{
 main{
     width: 100vw;
     height: 100vh;
-    background-color: #401201;
+    background-image: linear-gradient(blue, white);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -26,7 +26,7 @@ section {
     text-align: center;
     padding:2em;
     text-align: center;
-    background-color: #BFB1A4;
+    background-color: #F0F0F2;
     transform: rotateX(51deg) rotateZ(43deg);
     transform-style: preserve-3d;
     border-radius: 32px;
