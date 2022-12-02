@@ -1,0 +1,17 @@
+h1,p{
+    font-family: sans-serif;
+}
+h1{
+    font-size: 2em;
+}
+
+img.socialicon{
+    width: 3em;
+    height: 3em;
+} 
+
+main{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: skyblue; */
+}
