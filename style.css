@@ -15,7 +15,7 @@ main{
     height: 100vh;
     background-image: linear-gradient(blue, white);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;

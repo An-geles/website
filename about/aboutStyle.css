@@ -1,0 +1,18 @@
+h1,p{
+    font-family: sans-serif;
+    font-size: 3em;
+}
+
+section {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-image: grey;
+
+}
