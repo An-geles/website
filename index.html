@@ -10,34 +10,64 @@
 </head>
 <body>
     <main>
+
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(1)" class="closebtn" onclick="closeNav()">close</a>
+            <div class="overlay-content">
+                <a class="active" href="#home">Home</a>
+                <a class="active" href="about/about.html">About</a>
+                <a class="active" href="contact/contact.html">Contact</a>
+                <a class="active" href="projects/projects.html">Projects</a>
+            </div>
+        </div>
+
+        
+
+        <script>/* Open */
+            function openNav() {
+              document.getElementById("myNav").style.height = "100%";
+            }
+            
+            /* Close */
+            function closeNav() {
+              document.getElementById("myNav").style.height = "0%";
+            }
+        </script>
+
     <center>
 
-    <div onclick="location.href='https://github.com/An-geles';" style="cursor: pointer">
-        <section id="github" class="social">
-            <h1> GitHub</h1>
-            <a href="https://github.com/An-geles"> 
-                <img src="github.svg" alt="" class="socialicon">
-            </a>
-        </section>
-    </div>
+        <div>
+            <section id="menu" class="social">
+                <h1 onclick="openNav()">Menu</h1>
+            </section>
+        </div>
 
-    <div onclick="location.href='Resume.pdf';" style="cursor: pointer">
-        <section id="content">
-            <h1>Anthony Angeles</h1>
-            <p>Undergrad at UC Santa Cruz</p>
-            <p>click box for resume</p>
-        </section>
-    </div>
+        <div onclick="location.href='https://github.com/An-geles';" style="cursor: pointer">
+            <section id="github" class="social">
+                <h1> GitHub</h1>
+                <a href="https://github.com/An-geles"> 
+                    <img src="github.svg" alt="" class="socialicon">
+                </a>
+            </section>
+        </div>
 
-    <div onclick="location.href='https://www.linkedin.com/in/anthony-e-angeles/';" style="cursor: pointer">
-        <section id="linkedin" class="social">
-            <h1>Linkedin</h1>
-            <a href="https://www.linkedin.com/in/anthony-e-angeles/"> 
-                <img src="linkedin.svg" alt="" class="socialicon">
-            </a>
-        </section>
-    </div>
+        <div onclick="location.href='Resume.pdf';" style="cursor: pointer">
+            <section id="content">
+                <h1>Anthony Angeles</h1>
+                <p>Undergrad at UC Santa Cruz</p>
+                <p>click for resume</p>
+            </section>
+        </div>
 
+        <div onclick="location.href='https://www.linkedin.com/in/anthony-e-angeles/';" style="cursor: pointer">
+            <section id="linkedin" class="social">
+                <h1>Linkedin</h1>
+                <a href="https://www.linkedin.com/in/anthony-e-angeles/"> 
+                    <img src="linkedin.svg" alt="" class="socialicon">
+                </a>
+            </section>
+        </div>
+    </center>
     </main>
 </body>
 </html>
